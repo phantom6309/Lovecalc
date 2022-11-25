@@ -26,6 +26,6 @@ class LoveCalc(commands.Cog):
             4: ' "İki aşık" \N{GROWING HEART}\N{GROWING HEART}'
         }
 		await ctx.send(
-			' **{p1.display_name}** ve **{p2.display_name}** '
+			f' **{p1.display_name}** ve **{p2.display_name}** '
 			f'are {love}% uyumlu! {love_dict[love//25]}'
 		)
