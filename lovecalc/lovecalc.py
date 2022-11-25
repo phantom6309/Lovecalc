@@ -17,11 +17,7 @@ class LoveCalc(commands.Cog):
 		"""
 		if p2 is None:
 			p2 = ctx.author
-		state = random.getstate()
-		new_seed = str(p1.id + p2.id)
-		random.seed(new_seed)
 		love = random.randint(0, 101)
-		random.setstate(state)
 		love_dict = {
 			0: '\N{BROKEN HEART}',
 			1: '\N{HEAVY BLACK HEART}',
