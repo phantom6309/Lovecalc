@@ -27,5 +27,5 @@ class LoveCalc(commands.Cog):
         }
 		await ctx.send(
 			f' **{p1.display_name}** ve **{p2.display_name}** '
-			f'are {love}% uyumlu! {love_dict[love//25]}'
+			f' {love}% uyumlu! {love_dict[love//25]}'
 		)
