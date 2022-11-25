@@ -19,12 +19,12 @@ class LoveCalc(commands.Cog):
 			p2 = ctx.author
 		love = random.randint(0, 101)
 		love_dict = {
-			0: '\N{BROKEN HEART}',
-			1: '\N{HEAVY BLACK HEART}',
-			2: '\N{SPARKLING HEART}',
-			3: '\N{HEART WITH RIBBON}',
-			4: '\N{GROWING HEART}\N{GROWING HEART}\N{GROWING HEART}'
-		}
+            0: '\N"Artık başka bir zamana"{BROKEN HEART}',
+            1: '\N"Ayrılık görüyorum hocam"{HEAVY BLACK HEART}',
+            2: '\N"Bir flörtleşme sezdim sanki"{SPARKLING HEART}',
+            3: '\N"Çifte kumrular"{HEART WITH RIBBON}',
+            4: '\N{GROWING HEART}"İki aşık" "\N{GROWING HEART}\N{GROWING HEART}'
+        }
 		await ctx.send(
 			f'{love_dict[love//25]} **{p1.display_name}** and **{p2.display_name}** '
 			f'are {love}% compatible! {love_dict[love//25]}'
