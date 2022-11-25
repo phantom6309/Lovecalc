@@ -1,7 +1,7 @@
 import discord
 from redbot.core import commands
 import random
-
+import unidecode
 
 class LoveCalc(commands.Cog):
 	"""Calculate the love between two people."""
