@@ -8,7 +8,7 @@ import datetime
 
 class ListMaker(commands.Cog):
 	
-        def __init__(self, bot):
+    def __init__(self, bot):
         self.bot = bot
         self.hikaye_channel = None
         self.depo_channel = None
